@@ -5,10 +5,7 @@ module.exports = function(app) {
   }
   var sequelize = app.get('sequelize');
   var User = sequelize.define('User', {
-    id: {
-      type: "STRING"
-    },
-    name: {
+    undefined: {
       type: "STRING"
     }
   }, {
